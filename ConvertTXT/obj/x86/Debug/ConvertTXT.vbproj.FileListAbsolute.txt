@@ -1,0 +1,22 @@
+C:\Users\Administrator\AppData\Local\Temporary Projects\ConvertTXT\bin\Debug\ConvertTXT.exe
+C:\Users\Administrator\AppData\Local\Temporary Projects\ConvertTXT\bin\Debug\ConvertTXT.pdb
+C:\Users\Administrator\AppData\Local\Temporary Projects\ConvertTXT\bin\Debug\ConvertTXT.xml
+C:\Users\Administrator\AppData\Local\Temporary Projects\ConvertTXT\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\AppData\Local\Temporary Projects\ConvertTXT\obj\x86\Debug\ConvertTXT.Form1.resources
+C:\Users\Administrator\AppData\Local\Temporary Projects\ConvertTXT\obj\x86\Debug\ConvertTXT.Resources.resources
+C:\Users\Administrator\AppData\Local\Temporary Projects\ConvertTXT\obj\x86\Debug\ResGen.read.1.tlog
+C:\Users\Administrator\AppData\Local\Temporary Projects\ConvertTXT\obj\x86\Debug\ResGen.write.1.tlog
+C:\Users\Administrator\AppData\Local\Temporary Projects\ConvertTXT\obj\x86\Debug\ConvertTXT.exe
+C:\Users\Administrator\AppData\Local\Temporary Projects\ConvertTXT\obj\x86\Debug\ConvertTXT.xml
+C:\Users\Administrator\AppData\Local\Temporary Projects\ConvertTXT\obj\x86\Debug\ConvertTXT.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\ConvertTXT\ConvertTXT\obj\x86\Debug\ConvertTXT.exe
+C:\Users\Administrator\documents\visual studio 2010\Projects\ConvertTXT\ConvertTXT\obj\x86\Debug\ConvertTXT.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\ConvertTXT\ConvertTXT\obj\x86\Debug\ConvertTXT.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\ConvertTXT\ConvertTXT\bin\Debug\ConvertTXT.exe
+C:\Users\Administrator\documents\visual studio 2010\Projects\ConvertTXT\ConvertTXT\bin\Debug\ConvertTXT.pdb
+C:\Users\Administrator\documents\visual studio 2010\Projects\ConvertTXT\ConvertTXT\bin\Debug\ConvertTXT.xml
+C:\Users\Administrator\documents\visual studio 2010\Projects\ConvertTXT\ConvertTXT\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\documents\visual studio 2010\Projects\ConvertTXT\ConvertTXT\obj\x86\Debug\ConvertTXT.Form1.resources
+C:\Users\Administrator\documents\visual studio 2010\Projects\ConvertTXT\ConvertTXT\obj\x86\Debug\ConvertTXT.Resources.resources
+C:\Users\Administrator\documents\visual studio 2010\Projects\ConvertTXT\ConvertTXT\obj\x86\Debug\ResGen.read.1.tlog
+C:\Users\Administrator\documents\visual studio 2010\Projects\ConvertTXT\ConvertTXT\obj\x86\Debug\ResGen.write.1.tlog
