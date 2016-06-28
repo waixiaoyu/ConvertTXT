@@ -199,7 +199,7 @@ Partial Class Form1
 
                 End If
             Next
-            Dim bytes() As Byte = System.Text.Encoding.Unicode.GetBytes(strResult)
+            Dim bytes() As Byte = System.Text.Encoding.Unicode.GetBytes(strResult + pureName)
             fr.Write(bytes)
             fr.Close()
             fn.Close()
@@ -209,6 +209,7 @@ Partial Class Form1
         End If
 
     End Sub
+    Dim pureName As String = ""
     Function ParseString(ByVal line As String)
         Dim index As Integer
         Dim i As Integer
@@ -218,7 +219,8 @@ Partial Class Form1
                 Exit For
             End If
             If i = Len(line) Then '如果只有人名，就将人名直接输出
-                Return line + ";"
+                pureName = pureName + line + ";"
+                Return ""
             End If
         Next
         'MessageBox.Show(index)
