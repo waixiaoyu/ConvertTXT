@@ -155,6 +155,9 @@ Partial Class Form1
         Dim InputName As String
         Dim OutputName As String
         InputName = OpenFileDialog1.FileName
+        If InputName = "OpenFileDialog1" Then
+            InputName = TB_InputPath.Text
+        End If
         OutputName = FolderBrowserDialog1.SelectedPath
         If InputName = "" Then
             MessageBox.Show("please choose file first!")
@@ -165,7 +168,7 @@ Partial Class Form1
             Exit Sub
         End If
         If TB_OutputName.Text = "" Then
-            TB_OutputName.Text = Split(OpenFileDialog1.SafeFileName, ".")(0)
+            TB_OutputName.Text = Split(OpenFileDialog1.FileName.Substring(OpenFileDialog1.FileName.LastIndexOf("\") + 1), ".")(0)
             OutputName = FolderBrowserDialog1.SelectedPath + "\" + TB_OutputName.Text + "_new" + ".txt"
         Else
             OutputName = FolderBrowserDialog1.SelectedPath + "\" + TB_OutputName.Text + ".txt"
