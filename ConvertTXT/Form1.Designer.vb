@@ -193,7 +193,8 @@ Partial Class Form1
             Dim i As Integer
             For i = 0 To UBound(lines)
                 If lines(i) <> "" Then
-                    strResult += ParseString(lines(i))
+
+                    strResult += ParseString(Trim(lines(i)))
                     ' MessageBox.Show(strResult)
 
                 End If
@@ -212,9 +213,12 @@ Partial Class Form1
         Dim index As Integer
         Dim i As Integer
         For i = 1 To Len(line)
-            If IsNumeric(Mid(line, i, 1)) = True Then
+            If IsNumeric(Mid(line, i, 1)) = True Then '解析遇到数字，根据数字的位置解析字符串
                 index = i
                 Exit For
+            End If
+            If i = Len(line) Then '如果只有人名，就将人名直接输出
+                Return line + ";"
             End If
         Next
         'MessageBox.Show(index)
